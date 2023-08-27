@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset copy.css" />
+    <link rel="stylesheet" href="./css/햄버거.css" />
+    <link rel="stylesheet" href="./css/jon.css" />
+    <style>
+      body {
+        height: 100vh;
+        background: linear-gradient(
+            to left,
+            rgba(20, 20, 20, 0) 10%,
+            rgba(20, 20, 20, 0.25) 25%,
+            rgba(20, 20, 20, 0.5) 50%,
+            rgba(20, 20, 20, 0.75) 75%,
+            rgba(20, 20, 20, 1) 100%
+          ),
+          url("./img/존윅/jw1.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 125%;
+        background-position: center;
+        position: relative;
+      }
+      .arrow {
+        transform: translateY(-50%);
+        font-size: 32px;
+        animation: modifyArrow 0.7s linear infinite;
+      }
+      @keyframes modifyArrow {
+        50% {
+          transform: translate(16px, -50%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <img src="./img/존윅/johnwicklogo.png" />
+        </div>
+        <div class="header_tittle">
+          <div class="home">HOME</div>
+          <div class="character">CHARACTER</div>
+          <div class="gallery">GALLERY</div>
+        </div>
+        <div class="menu-trigger" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div>
+        <div class="tittle">
+          <img src="./img/존윅/johnwicktitle.png" />
+        </div>
+        <div class="content">
+          <div class="chapter1">
+            <p>CHAPTER1 - JOHN WICK</p>
+          </div>
+          <div class="house">
+            <p>
+              I shouldn't have touched him. Revenge against enemies who chose
+              the wrong person!John Wick, a killer <br />
+              called a legend, retires from the world of crime by meeting his
+              beloved woman and getting married. <br />
+              Happiness is also briefly delivered as a gift to his wife before
+              she dies. Then one day, unidentified men rush <br />
+              into his house...
+            </p>
+          </div>
+          <ul>
+            <li><strong>Release</strong>2015, January 21</li>
+            <li><strong>Director</strong>Chad Stahelski</li>
+            <li><strong>Genre</strong>Action, Thriller</li>
+          </ul>
+        </div>
+        <div id="circle">
+          <ul class="circle">
+            <li>WATCH</li>
+            <li>REAN MORE</li>
+          </ul>
+        </div>
+      </div>
+      <div class="trailer">
+        <div class="trailer1">TRAILER</div>
+        <div class="arrow"><div><</div></div>
+      </div>
+    </main>
+    <footer>
+      <div class="sns_logo">
+        <article><img src="./img/존윅/footer-facebook.png" /></article>
+        <article><img src="./img/존윅/footer-twitter.png" /></article>
+        <article><img src="./img/존윅/footer-youtube.png" /></article>
+      </div>
+    </footer>
+  </body>
+</html>
